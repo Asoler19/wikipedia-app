@@ -1,0 +1,55 @@
+body{
+    margin: 2em;
+    text-align: center;
+    background-color: #2f5866;
+}
+
+
+#results{
+    background-color: #468499;
+    font-family: Lobster Two;
+    border-radius: 10px;
+
+}
+
+li{
+    list-style: inside;
+    list-style-type: square;
+    background-color: #aed7e5;
+ }
+
+ li :hover{
+    box-shadow: 4px 4px 2px black;;
+ }
+ img{
+    width: 400px;
+    height: auto;
+
+ }
+
+ input{
+    width: auto;
+    height: 30px;
+    font-size: 22px;
+    background-color: lightsteelblue;
+    border-radius: 5px;
+ }
+ button{
+    width: 6pc;
+    height: 39px;
+    transform: translateY(-2px);
+    font-family: Lobster Two;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: lightsteelblue;
+    border: 6px outset deepskyblue; 
+ }
+ 
+ button:hover{
+    box-shadow: 4px 4px 2px;
+    
+ }
+ button:active{
+    box-shadow: 2px 2px 1px;
+ }
+
